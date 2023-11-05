@@ -9,7 +9,7 @@
 
     <link rel="icon" href="./images/favicon.png" type="image/png">
 
-    <title>Session Management :: AWS System Manager</title>
+    <title>CloudFront with WAF Protection</title>
 
     
     <link href="./css/nucleus.css?1697122568" rel="stylesheet">
@@ -88,7 +88,7 @@
         
         ">
       <a href="./1-introduce/">
-           <b> 1. </b> Introduction
+           <b> 1. </b> Giới thiệu
           
             <i class="fas fa-check read-icon"></i>
           
@@ -114,260 +114,13 @@
         
         ">
       <a href="./2-prerequiste/">
-           <b> 2. </b> Preparation 
+           <b> 2. </b> Chuẩn bị
           
             <i class="fas fa-check read-icon"></i>
           
       </a>
       
       
-        <ul>
-          
-          
-            
-          
-          
-          
-        
-          
-            
-            
-
-
-
-
- 
-  
-    
-    <li data-nav-id="/2-prerequiste/2.1-createec2/" title="Preparing VPC and EC2" class="dd-item 
-        
-        
-        
-        ">
-      <a href="./2-prerequiste/2.1-createec2/">
-           <b> 2.1 </b> Preparing VPC and EC2
-          
-            <i class="fas fa-check read-icon"></i>
-          
-      </a>
-      
-      
-        <ul>
-          
-          
-            
-          
-          
-          
-        
-          
-            
-            
-
-
-
-
- 
-  
-    
-    <li data-nav-id="/2-prerequiste/2.1-createec2/2.1.1-createvpc/" title="Create VPC" class="dd-item 
-        
-        
-        
-        ">
-      <a href="./2-prerequiste/2.1-createec2/2.1.1-createvpc/">
-           <b> 2.1.1 </b> Create VPC
-          
-            <i class="fas fa-check read-icon"></i>
-          
-      </a>
-      
-              
-    </li>
-  
- 
-
-            
-          
-            
-            
-
-
-
-
- 
-  
-    
-    <li data-nav-id="/2-prerequiste/2.1-createec2/2.1.2-createpublicsubnet/" title="Create Public Subnet" class="dd-item 
-        
-        
-        
-        ">
-      <a href="./2-prerequiste/2.1-createec2/2.1.2-createpublicsubnet/">
-           <b> 2.1.2 </b> Create Public Subnet
-          
-            <i class="fas fa-check read-icon"></i>
-          
-      </a>
-      
-              
-    </li>
-  
- 
-
-            
-          
-            
-            
-
-
-
-
- 
-  
-    
-    <li data-nav-id="/2-prerequiste/2.1-createec2/2.1.3-createprivatesubnet/" title="Create Private Subnet" class="dd-item 
-        
-        
-        
-        ">
-      <a href="./2-prerequiste/2.1-createec2/2.1.3-createprivatesubnet/">
-           <b> 2.1.3 </b> Create Private Subnet
-          
-            <i class="fas fa-check read-icon"></i>
-          
-      </a>
-      
-              
-    </li>
-  
- 
-
-            
-          
-            
-            
-
-
-
-
- 
-  
-    
-    <li data-nav-id="/2-prerequiste/2.1-createec2/2.1.4-createsecgroup/" title="Create security groups" class="dd-item 
-        
-        
-        
-        ">
-      <a href="./2-prerequiste/2.1-createec2/2.1.4-createsecgroup/">
-           <b> 2.1.4 </b> Create security groups
-          
-            <i class="fas fa-check read-icon"></i>
-          
-      </a>
-      
-              
-    </li>
-  
- 
-
-            
-          
-            
-            
-
-
-
-
- 
-  
-    
-    <li data-nav-id="/2-prerequiste/2.1-createec2/2.1.5-createec2linux/" title="Create Public instance" class="dd-item 
-        
-        
-        
-        ">
-      <a href="./2-prerequiste/2.1-createec2/2.1.5-createec2linux/">
-           <b> 2.1.5 </b> Create Public instance
-          
-            <i class="fas fa-check read-icon"></i>
-          
-      </a>
-      
-              
-    </li>
-  
- 
-
-            
-          
-            
-            
-
-
-
-
- 
-  
-    
-    <li data-nav-id="/2-prerequiste/2.1-createec2/2.1.6-createec2windows/" title="Create Private Instance" class="dd-item 
-        
-        
-        
-        ">
-      <a href="./2-prerequiste/2.1-createec2/2.1.6-createec2windows/">
-           <b> 2.1.6 </b> Create Private Instance
-          
-            <i class="fas fa-check read-icon"></i>
-          
-      </a>
-      
-              
-    </li>
-  
- 
-
-            
-          
-        
-        </ul>
-              
-    </li>
-  
- 
-
-            
-          
-            
-            
-
-
-
-
- 
-  
-    
-    <li data-nav-id="/2-prerequiste/2.2-createiamrole/" title="Create IAM Role" class="dd-item 
-        
-        
-        
-        ">
-      <a href="./2-prerequiste/2.2-createiamrole/">
-           <b> 2.2 </b> Create IAM Role
-          
-            <i class="fas fa-check read-icon"></i>
-          
-      </a>
-      
-              
-    </li>
-  
- 
-
-            
-          
-        
-        </ul>
               
     </li>
   
@@ -382,278 +135,20 @@
  
   
     
-    <li data-nav-id="/3-accessibilitytoinstances/" title="Connect to EC2 servers" class="dd-item 
+    <li data-nav-id="/3-waf/" title="Configure AWS WAF" class="dd-item 
         
         
         
         ">
-      <a href="./3-accessibilitytoinstances/">
-           <b> 3. </b> Connect to EC2 servers
+      <a href="./3-waf/">
+           <b> 3. </b> Cấu hình AWS WAF
           
             <i class="fas fa-check read-icon"></i>
           
       </a>
       
       
-        <ul>
-          
-          
-            
-          
-          
-          
-        
-          
-            
-            
-
-
-
-
- 
-  
-    
-    <li data-nav-id="/3-accessibilitytoinstances/3.1-public-instance/" title="Connect to Public Instance" class="dd-item 
-        
-        
-        
-        ">
-      <a href="./3-accessibilitytoinstances/3.1-public-instance/">
-           <b> 3.1. </b> Connect to Public Instance
-          
-            <i class="fas fa-check read-icon"></i>
-          
-      </a>
-      
-              
-    </li>
-  
- 
-
-            
-          
-            
-            
-
-
-
-
- 
-  
-    
-    <li data-nav-id="/3-accessibilitytoinstances/3.2-private-instance/" title="Connect to Private instance" class="dd-item 
-        
-        
-        
-        ">
-      <a href="./3-accessibilitytoinstances/3.2-private-instance/">
-           <b> 3.2. </b> Connect to Private instance
-          
-            <i class="fas fa-check read-icon"></i>
-          
-      </a>
-      
-      
-        <ul>
-          
-          
-            
-          
-          
-          
-        
-          
-            
-            
-
-
-
-
- 
-  
-    
-    <li data-nav-id="/3-accessibilitytoinstances/3.2-private-instance/3.2.1-enablevpcdns/" title="Enable DNS hostnames" class="dd-item 
-        
-        
-        
-        ">
-      <a href="./3-accessibilitytoinstances/3.2-private-instance/3.2.1-enablevpcdns/">
-           <b> 3.2.1 </b> Enable DNS hostnames
-          
-            <i class="fas fa-check read-icon"></i>
-          
-      </a>
-      
-              
-    </li>
-  
- 
-
-            
-          
-            
-            
-
-
-
-
- 
-  
-    
-    <li data-nav-id="/3-accessibilitytoinstances/3.2-private-instance/3.2.2-createvpcendpoint/" title="Create VPC Endpoint" class="dd-item 
-        
-        
-        
-        ">
-      <a href="./3-accessibilitytoinstances/3.2-private-instance/3.2.2-createvpcendpoint/">
-           <b> 3.2.2 </b> Create VPC Endpoint
-          
-            <i class="fas fa-check read-icon"></i>
-          
-      </a>
-      
-      
-        <ul>
-          
-          
-            
-          
-          
-          
-        
-          
-            
-            
-
-
-
-
- 
-  
-    
-    <li data-nav-id="/3-accessibilitytoinstances/3.2-private-instance/3.2.2-createvpcendpoint/3.2.2.1-endpointssm/" title="Create Endpoint ssm" class="dd-item 
-        
-        
-        
-        ">
-      <a href="./3-accessibilitytoinstances/3.2-private-instance/3.2.2-createvpcendpoint/3.2.2.1-endpointssm/">
-           <b> 3.2.2.1 </b> Create Endpoint ssm
-          
-            <i class="fas fa-check read-icon"></i>
-          
-      </a>
-      
-              
-    </li>
-  
- 
-
-            
-          
-            
-            
-
-
-
-
- 
-  
-    
-    <li data-nav-id="/3-accessibilitytoinstances/3.2-private-instance/3.2.2-createvpcendpoint/3.2.2.2-endpointssmmessages/" title="Create Endpoint ssmmessages" class="dd-item 
-        
-        
-        
-        ">
-      <a href="./3-accessibilitytoinstances/3.2-private-instance/3.2.2-createvpcendpoint/3.2.2.2-endpointssmmessages/">
-           <b> 3.2.2.2 </b> Create Endpoint ssmmessages
-          
-            <i class="fas fa-check read-icon"></i>
-          
-      </a>
-      
-              
-    </li>
-  
- 
-
-            
-          
-            
-            
-
-
-
-
- 
-  
-    
-    <li data-nav-id="/3-accessibilitytoinstances/3.2-private-instance/3.2.2-createvpcendpoint/3.2.2.3-endpointec2messages/" title="Create Endpoint ec2messages" class="dd-item 
-        
-        
-        
-        ">
-      <a href="./3-accessibilitytoinstances/3.2-private-instance/3.2.2-createvpcendpoint/3.2.2.3-endpointec2messages/">
-           <b> 3.2.2.3 </b> Create Endpoint ec2messages
-          
-            <i class="fas fa-check read-icon"></i>
-          
-      </a>
-      
-              
-    </li>
-  
- 
-
-            
-          
-        
-        </ul>
-              
-    </li>
-  
- 
-
-            
-          
-            
-            
-
-
-
-
- 
-  
-    
-    <li data-nav-id="/3-accessibilitytoinstances/3.2-private-instance/3.2.3-connectec2/" title="Connect to instance" class="dd-item 
-        
-        
-        
-        ">
-      <a href="./3-accessibilitytoinstances/3.2-private-instance/3.2.3-connectec2/">
-           <b> 3.2.3 </b> Connect to instance
-          
-            <i class="fas fa-check read-icon"></i>
-          
-      </a>
-      
-              
-    </li>
-  
- 
-
-            
-          
-        
-        </ul>
-              
-    </li>
-  
- 
-
-            
-          
-        
-        </ul>
+   
               
     </li>
   
@@ -668,142 +163,20 @@
  
   
     
-    <li data-nav-id="/4-s3log/" title="Manage session logs" class="dd-item 
+    <li data-nav-id="/4-front/" title="Configure Amazon CloudFront" class="dd-item 
         
         
         
         ">
-      <a href="./4-s3log/">
-           <b> 4. </b> Manage session logs
+      <a href="./4-front/">
+           <b> 4. </b> Cấu hình Amazon CloudFront
           
             <i class="fas fa-check read-icon"></i>
           
       </a>
       
       
-        <ul>
-          
-          
-            
-          
-          
-          
-        
-          
-            
-            
-
-
-
-
- 
-  
-    
-    <li data-nav-id="/4-s3log/4.1-updateiamrole/" title="Update IAM Role" class="dd-item 
-        
-        
-        
-        ">
-      <a href="./4-s3log/4.1-updateiamrole/">
-           <b> 4.1 </b> Update IAM Role
-          
-            <i class="fas fa-check read-icon"></i>
-          
-      </a>
-      
-              
-    </li>
-  
- 
-
-            
-          
-            
-            
-
-
-
-
- 
-  
-    
-    <li data-nav-id="/4-s3log/4.2-creates3bucket/" title="Create S3 Bucket" class="dd-item 
-        
-        
-        
-        ">
-      <a href="./4-s3log/4.2-creates3bucket/">
-           <b> 4.2 </b> Create S3 Bucket
-          
-            <i class="fas fa-check read-icon"></i>
-          
-      </a>
-      
-              
-    </li>
-  
- 
-
-            
-          
-            
-            
-
-
-
-
- 
-  
-    
-    <li data-nav-id="/4-s3log/4.3-creategwes3/" title="Create S3 Gateway endpoint" class="dd-item 
-        
-        
-        
-        ">
-      <a href="./4-s3log/4.3-creategwes3/">
-           <b> 4.3 </b> Create S3 Gateway endpoint
-          
-            <i class="fas fa-check read-icon"></i>
-          
-      </a>
-      
-              
-    </li>
-  
- 
-
-            
-          
-            
-            
-
-
-
-
- 
-  
-    
-    <li data-nav-id="/4-s3log/4.4-configsessionlogs/" title="Monitor session logs" class="dd-item 
-        
-        
-        
-        ">
-      <a href="./4-s3log/4.4-configsessionlogs/">
-           <b> 4.4 </b> Monitor session logs
-          
-            <i class="fas fa-check read-icon"></i>
-          
-      </a>
-      
-              
-    </li>
-  
- 
-
-            
-          
-        
-        </ul>
+   
               
     </li>
   
@@ -818,13 +191,13 @@
  
   
     
-    <li data-nav-id="/5-portfwd/" title="Port Forwarding" class="dd-item 
+    <li data-nav-id="/5-cleanup/" title="Clean up" class="dd-item 
         
         
         
         ">
-      <a href="./5-portfwd/">
-           <b> 5. </b> Port Forwarding
+      <a href="./5-cleanup/">
+           <b> 5. </b> Dọn dẹp tài nguyên
           
             <i class="fas fa-check read-icon"></i>
           
@@ -844,20 +217,7 @@
  
   
     
-    <li data-nav-id="/6-cleanup/" title="Clean up resources" class="dd-item 
-        
-        
-        
-        ">
-      <a href="./6-cleanup/">
-          <b>6. </b>Clean up resources
-          
-            <i class="fas fa-check read-icon"></i>
-          
-      </a>
-      
-              
-    </li>
+
   
  
 
@@ -956,11 +316,7 @@
         <br>
             <b> Team </b> <br>
            
-            <i> <a href="https://www.linkedin.com/in/sutrinh/"  style="color:orange">Sử Trịnh  </a> <br>
-                <a href="https://www.linkedin.com/in/jotaguy"  style="color:orange">Gia Hưng </a> <br>
-                <a href="https://www.linkedin.com/in/hiepnguyendt"  style="color:orange">Thanh Hiệp </a>
-               
-        </i>
+            
         </left>
 
 <script async defer src="https://buttons.github.io/buttons.js"></script>
@@ -990,19 +346,17 @@
 </span>
 
  
-<h1 id="work-with-amazon-system-manager---session-manager">Work with Amazon System Manager - Session Manager</h1>
-<h3 id="overall">Overall</h3>
-<p>In this lab, you&rsquo;ll learn the basics and practice of Amazon  System Manager - Session Manager
-. Perform creating public and private instance connections.</p>
-<p><img src="./images/arc-log.png" alt="ConnectPrivate"></p>
-<h3 id="content">Content</h3>
+<h1 id="work-with-amazon-system-manager---session-manager">CloudFront with WAF Protection</h1>
+<h3 id="overall">Tổng quan</h3>
+<p>Phòng thí nghiệm thực hành này sẽ hướng dẫn bạn các bước để bảo vệ khối lượng công việc khỏi các cuộc tấn công dựa trên mạng bằng cách sử dụng <strong>Amazon CloudFront</strong> và <strong>Tường lửa ứng dụng web AWS (WAF)</strong>. Bạn sẽ sử dụng <strong>AWS Management Console</strong> và <strong>AWS CloudFormation</strong> để hướng dẫn bạn cách triển khai <strong>CloudFront</strong> bằng tích hợp ,<strong>WAF</strong> để áp dụng các phương pháp bảo vệ chuyên sâu. </p>
+<p><img src="./images/co.png" alt="ConnectPrivate"></p>
+<h3 id="content">Nội dung</h3>
 <ol>
-<li><a href="1-introduce/">Introduction </a></li>
-<li><a href="2-prerequiste/">Preparation</a></li>
-<li><a href="3-accessibilitytoinstances/">Connect to EC2 instance</a></li>
-<li><a href="4-s3log/">Manage session logs</a></li>
-<li><a href="5-Portfwd/">Port Forwarding</a></li>
-<li><a href="6-cleanup/">Clean up resources</a></li>
+<li><a href="1-introduce/">Giới thiệu </a></li>
+<li><a href="2-prerequiste/">Chuẩn bị </a></li>
+<li><a href="3-waf/">Cấu hình AWS WAF</a></li>
+<li><a href="4-front/">Cấu hình Amazon CloudFront</a></li>
+<li><a href="5-cleanup/">Dọn dẹp tài nguyên</a></li>
 </ol>
 	
   
