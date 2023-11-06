@@ -449,7 +449,8 @@
   <li>Cuộn xuống cuối phần <strong>Advanced details</strong> . Nhập thông tin sau vào hộp kiểm tra Dữ liệu người dùng để tự động cài đặt máy chủ web Apache và áp dụng cấu hình cơ bản khi khởi chạy phiên bản:</li>
 </ul>
 
-<code>
+<pre>
+<code tabindex="0">  
   #!/bin/bash
   yum update -y
   yum install -y httpd
@@ -462,6 +463,7 @@
   find /var/www -type d -exec chmod 2775 {} +
   find /var/www -type f -exec chmod 0664 {} +
 </code>
+</pre>
 
 <ol start="11">
   <li>Trong ngăn <strong>Summary </strong>, xem lại phiên bản của bạn rồi nhấp vào <strong>Launch instance</strong>.</li>
